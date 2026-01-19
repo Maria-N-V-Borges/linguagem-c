@@ -192,7 +192,7 @@ Funcionalidades:
 
 - Três habilidades especiais:
 
-    -Cone
+    - Cone
 
     - Cruz
 
@@ -233,9 +233,9 @@ linguagem-c/
 │   ├── nivel-aventureiro.c
 │   └── nivel-mestre.c
 │
-└── xadrez/
-    ├── novato.c
-    ├── aventureiro.c
+├── xadrez/
+│   ├── novato.c
+│   ├── aventureiro.c
 │   └── mestre.c
 │
 └── batalha_naval/
