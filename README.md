@@ -130,6 +130,92 @@ Conceitos trabalhados:
 
 - Controle avançado de fluxo
 
+## 🚢 Projeto 3 — Batalha Naval em C
+Projeto inspirado no clássico jogo de Batalha Naval, desenvolvido para praticar vetores bidimensionais, estruturas de repetição aninhadas e padrões em matrizes. Cada nível introduz novos desafios e habilidades, evoluindo da lógica básica até efeitos especiais no tabuleiro.
+
+### 🌱 Nível Novato
+📌 Objetivo: posicionar navios em um tabuleiro usando vetores bidimensionais.
+
+Funcionalidades:
+
+- Tabuleiro 10x10 representado por matriz
+
+- Dois navios posicionados manualmente:
+
+    - Um vertical
+
+    - Um horizontal
+
+- Exibição das coordenadas de cada parte dos navios com printf
+
+Conceitos trabalhados:
+
+- Matrizes
+
+- Coordenadas X e Y
+
+- Saída organizada
+
+## 🌍 Nível Aventureiro
+📌 Objetivo: adicionar complexidade ao posicionamento e exibir o tabuleiro completo.
+
+Funcionalidades:
+
+- Quatro navios posicionados:
+
+- Vertical
+
+- Horizontal
+
+- Diagonal ↘
+
+- Diagonal ↙
+
+Exibição completa do tabuleiro:
+
+- 0 para posições livres
+
+- 3 para posições ocupadas
+
+Conceitos trabalhados:
+
+- Matrizes 10x10
+
+- Loops simples
+
+- Organização visual do tabuleiro
+
+### 🏆 Nível Mestre
+📌 Objetivo: implementar habilidades especiais com padrões geométricos em matrizes.
+
+Funcionalidades:
+
+- Três habilidades especiais:
+
+    -Cone
+
+    - Cruz
+
+    - Octaedro
+
+- Cada habilidade ocupa uma área distinta do tabuleiro
+
+Exibição das áreas afetadas:
+
+- 1 para áreas atingidas
+
+- 0 para áreas livres
+
+Conceitos trabalhados:
+
+- Estruturas de repetição aninhadas
+
+- Condições com abs() para formar padrões
+
+- Modularização das habilidades
+
+- Combinação de navios e poderes no mesmo tabuleiro
+
 ## 📁 Estrutura do Repositório
 ```
 linguagem-c/
@@ -148,6 +234,11 @@ linguagem-c/
 │   └── nivel-mestre.c
 │
 └── xadrez/
+    ├── novato.c
+    ├── aventureiro.c
+│   └── mestre.c
+│
+└── batalha_naval/
     ├── novato.c
     ├── aventureiro.c
     └── mestre.c
